@@ -2,6 +2,7 @@
 #Actividad: crear una fabrica de calzados(?)
 #Calzado: tipo,suela, made in, marca, fechadecreacion, numero
 #Zapatillas: numero, modelo, materiales, stock
+#faltó precio y costo
 
 class Calzado:
     def __init__(self,made_in, tipo, suela, marca, fecha_de_creacion, numero):
