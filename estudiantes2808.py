@@ -45,6 +45,14 @@ class Docentes(Escuela):
 
 E1=Estudiantes(78394,"49.986.367","Antonio Hernández","Nicolás Moreno 2867","Tecnología, ciencias, arte y deporte.","4to *C*")
 E1.mostrar()
+E2=Estudiantes(683296,"49.832.899","Astrid Flores","Lavanda 737","Deporte, cocina, natacion, y psicología","4to *B*")
+E2.mostrar()
+E3=Estudiantes(94634,"49.216.533","Daniel Vnosky","Sarmiento 1083","Programación, quimica, FVT y Matematica.","4to *A*")
+E3.mostrar()
 
 D1=Docentes(64875,"25.098.687","Elías Romero","Alem 7874","Formación para la Vida y el Trabajo-FVT","4to *A*")
 D1.mostrar()
+D2=Docentes(89875,"22.596.987","Natalia Amor","Docente 2879","Historia","6to *D*")
+D2.mostrar()
+D3=Docentes(9835,"24.129.987","Nahuel Gonzalez","Ceferino Amor 7782","Educación Física","5to *B*")
+D3.mostrar()
