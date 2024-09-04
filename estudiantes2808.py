@@ -1,3 +1,4 @@
+#28/08/2024
 #--Actividad 2--
 #Crear un programa que contenga los datos personales de personas que forman parte de una escuela: estudiantes y docentes.
 #Deberas identificar los siguientes atributos y aplicarlos a Clases en POO: matricula, dni, nombreApellido, direccion, anioCurso, materias, cursosAcargo. 
@@ -21,7 +22,9 @@ class Estudiantes(Escuela):
         self.curso=curso
 
     def mostrar(self):
-        print("Rol: Estudiante")
+        print("_____________________________")
+        print("    Rol: ESTUDIANTE")
+        print("  ____ ___________ ____")
         print("Curso: ", self.curso)
         super().mostrar()
         print("_____________________________")
@@ -32,7 +35,9 @@ class Docentes(Escuela):
         self.cursoacargo=cursoacargo
 
     def mostrar(self):
-        print("Rol: Docente")
+        print("_____________________________")
+        print("    Rol: DOCENTE")
+        print("  ____ ___________ ____")
         print("Curso designado: ", self.cursoacargo)
         super().mostrar()
         print("_____________________________")
