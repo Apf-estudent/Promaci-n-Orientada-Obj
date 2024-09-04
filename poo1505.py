@@ -6,11 +6,7 @@ class AnimalMarino:
     animal.tipo = tipo
     
   def mostrar(animal):
-      print("Orca", animal.nombre, "6 a 8 metros", animal.largo,"acuatico", animal.tipo)
+      print("Animal: ", animal.nombre, "\nTamaño: ", animal.largo,"\nTipo: ", animal.tipo)
 
-    
-
-
-
-#a1 = AnimalMarino("Orca", "6 a 8 metros", "acuático")
-#a1.mostrar()
+a1 = AnimalMarino("Orca", "6 a 8 metros", "acuático")
+a1.mostrar()
