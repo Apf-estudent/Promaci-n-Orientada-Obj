@@ -35,7 +35,7 @@ class Desarrollador(Empleado):
 
     def detalles(self):
         super().detalles()
-        print(f"Bono por proyecto: ",self.bono2)
+        print("Bono por proyecto: ",self.bono2)
 
     def accesoherramientas(self):
         print("Acceso a herramientas")
@@ -55,11 +55,11 @@ class Diseñador(Empleado):
     def accesosoftware(self):
         print("Acceso a software")
 
-empleados=[
+empleados={
     Gerente("Ramiro", 145000, 98600),
     Desarrollador("Luka", 85000, 75000),
     Diseñador("Gertrudis", 99000, 950000)
-]
+}
 
 for empleado in empleados:
     print(empleado.detalles())
