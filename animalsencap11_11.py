@@ -28,6 +28,8 @@ class Gato(Animal):
 
 
 a1=Animal("Pepe",2,"Belga","Garrapatas","Juan telefon: 304945855")
+#a1.__mostrar por ejemplo nos va a dar error al ser un método privado
+#Entonces lo tenemos q llamar desde su función pública que seria "verInfo"
 a1.verInfo()
 g1=Gato("Pepito",2,"Siames","Garrapatas y pulgas", "Juana teléfono: 304945345", 2, 1, "Filosas" )
 g1.verInfo()
